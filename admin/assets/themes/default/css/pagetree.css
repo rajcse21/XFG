@@ -1,0 +1,129 @@
+#dialog-modal{
+    display: none;
+}
+#sortable {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    font-size: 13px;
+}
+#sortable a {
+    color: #000;
+    text-decoration: none;
+}
+#sortable a:hover {
+    color: #214c7b;
+    text-decoration: underline;
+}
+
+#sortable li {
+    list-style: none;
+    padding: 5px 15px;
+    margin: 0px;
+    display: block;
+    clear: both;
+}
+.category_sort_sub {
+    padding-bottom: 50px !important;
+}
+.ul_sortable li {
+    overflow: visible !important;
+    z-index: 9999 !important;
+    width: auto !important;
+}
+#sortable li.tree-item {
+    background: #F6F6F6;
+    margin-bottom: 5px;
+    border: solid 1px #cccccc;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#sortable li.tree-item .col-sm-9 a {
+    padding-top: 5px;
+    display: block;
+    font-size:15px;
+}
+#sortable li.tree-item ul {
+    margin-top: 8px !important;
+}
+#sortable li.tree-item li.tree-item {
+    background: #fff;
+}
+#sortable li.tree-item li.tree-item li.tree-item {
+    background: #F8F8F8;
+}
+#sortable li li li li {
+    background-color: #fff;
+}
+
+.pagetable {
+    border: 1px solid #999999;
+}
+#sortable li table {
+    background-color:#ececec;
+    margin-bottom:5px; 
+    border: 0px;
+    margin-top: 5px;
+}
+
+/* Drag & Drop */
+.dragdrop {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+.dragdrop a {
+    color: #000;
+    text-decoration: none;
+}
+.dragdrop li {
+    list-style: none;
+    padding: 3px;
+    margin: 0px;
+    display: block;
+    clear: both;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    background: #E4E3E2 url(../images/arrow_sort.gif) no-repeat 10px center;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    cursor: move;
+}
+.dragdrop li table {
+    background-color:#E4E3E2;
+    margin-bottom:0px; 
+    border: 0px;
+}
+.dragdrop li.disabled, .dragdrop li.disabled table {
+    background-color:#FFFFCC;
+}
+.ui-sortable {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+#pagetree .page_item {
+    clear: both;
+    min-height: 18px;
+    width: 100%;
+}
+#pagetree .page_item_name {
+    float: left;
+}
+#pagetree .page_item_options {
+    float: right;
+}
+.pagetable {
+    border: 1px solid #999999;
+}
+#pagetree li table {
+    background-color:#ececec;
+    margin-bottom:5px; 
+    border: 0px;
+    margin-top: 5px;
+}
