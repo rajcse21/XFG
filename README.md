@@ -1,4 +1,4 @@
-# Responsive FileManager for TinyMCE and CKEditor
+### Responsive FileManager for TinyMCE and CKEditor
 
 [![Build Status](https://travis-ci.org/trippo/ResponsiveFilemanager.svg?branch=master)](https://travis-ci.org/trippo/ResponsiveFilemanager)
 
